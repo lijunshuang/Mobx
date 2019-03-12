@@ -3,7 +3,6 @@ import { observable, action, computed } from 'mobx'
 import PropTypes from 'prop-types'
 import { observer, PropTypes as ObservablePropTypes } from 'mobx-react'
 
-// import Page from './pages/Index'
 import "./App.scss"
 class Todo { 
   @observable id = Math.random();
