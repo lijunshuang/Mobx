@@ -33,9 +33,11 @@
 }
 
 *{margin:0;padding:0;}
-
+.app{
+  padding:20px;
+}
 .todo-list{
-  width: 400px;margin:20px auto;border:1px solid #ddd;padding:30px;
+  width: 400px;margin:20px 0;border:1px solid #ddd;padding:30px;
   background:#eee;
   ul,li{list-style: none;}
   ul{
